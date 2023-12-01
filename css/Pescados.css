@@ -1,0 +1,223 @@
+h1 {
+    text-align: center;
+    font-style: oblique;
+}
+/*Estilos para el encabezado*/
+header {
+    background-color: rgba(167, 121, 53, 0.829);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+
+}
+
+.imagen {
+    height: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.sinpuntos {
+    list-style-type: none;
+}
+/*Estilos para la barra de navegacion*/
+nav {
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.caja {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.boton-nav {
+    display: inline-block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 50%;
+    padding-left: 100px;
+    padding-right: 115px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #007bff;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
+.boton-nav:hover {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: rgb(255, 255, 255);
+
+}
+/*Estilos para el pie de pagina*/
+footer {
+    background-color: rgba(167, 121, 53, 0.829);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    margin-top: 0px;
+}
+/*Estilos para el contenido principal*/
+main {
+    background-color: beige;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedor3 {
+    width: 50%;
+    /* Ancho del contenedor */
+    margin: 20px auto;
+    /* Margen exterior (arriba y abajo) y centrado horizontal */
+    padding: 40px;
+    /* Espaciado interno del contenedor */
+    background-color: #b6a6a6;
+    /* Color de fondo del contenedor */
+    border: 1px solid #ccc;
+    /* Borde del contenedor */
+    border-radius: 5px;
+    /* Bordes redondeados del contenedor */
+    position: relative;
+    margin-left: 0px;
+    margin-top: 1px;
+    border: 2px;
+}
+
+h3 {
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.boton_receta {
+    text-decoration: none;
+    color: #000000;
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+}
+
+.bacalao_pilpil {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Ajustar la imagen dentro del contenedor */
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el botón */
+    right: 22px;
+    top: 75px;
+    position: absolute;
+    float: left;
+}
+
+.croquetas_bacalao {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Ajustar la imagen dentro del contenedor */
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el botón */
+    right: 20px;
+    top: 12px;
+    position: absolute;
+    float: left;
+}
+
+.contenedor3 p {
+    /* Ajustes para evitar solapamientos */
+    margin-right: 120px;
+    /* Cambia este valor para ajustar el espaciado */
+    padding: 0 20px;
+    /* Añade relleno alrededor del texto según sea necesario */
+}
+
+h4 {
+    margin-left: 20px;
+}
+/*Estilos para el body*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.Merluza_en_salsa_verde {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Ajustar la imagen dentro del contenedor */
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el botón */
+    right: 20px;
+    top: 26px;
+    position: absolute;
+    float: left;
+}
+
+.Pastel_Cabracho {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Ajustar la imagen dentro del contenedor */
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el botón */
+    right: 20px;
+    top: 28px;
+    position: absolute;
+    float: left;
+}
+
+.Salmon_patatas {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Ajustar la imagen dentro del contenedor */
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el botón */
+    right: 20px;
+    top: 28px;
+    position: absolute;
+    float: left;
+}

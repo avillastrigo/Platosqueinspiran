@@ -1,0 +1,236 @@
+/* Estilos para el elemento h1 */
+h1 {
+    text-align: center;
+    /* Alineación central del texto */
+    font-style: oblique;
+    /* Estilo de fuente oblicua */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(167, 121, 53, 0.829);
+    /* Color de fondo con transparencia */
+    /* Configuración del contenedor del encabezado */
+    display: flex;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
+    text-align: center;
+    /* Alineación del texto */
+    height: 10%;
+    /* Altura del elemento */
+    width: 100%;
+    /* Ancho del elemento */
+    align-self: center;
+    text-align: center;
+    /* Alineación del texto */
+}
+
+/* Estilos para el logotipo */
+.logo {
+    height: 100px;
+    /* Altura del logotipo */
+    margin-left: 20px;
+    /* Margen izquierdo */
+    text-align: center;
+    /* Alineación del texto */
+}
+
+/* Estilos para la lista sin puntos en el menú de navegación */
+.sinpuntos {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: rgb(0, 0, 0);
+    /* Color de fondo */
+    /* Configuración del contenedor de navegación */
+    display: inline-block;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
+    text-align: center;
+    /* Alineación del texto */
+    height: 10%;
+    /* Altura del elemento */
+    width: 100%;
+    /* Ancho del elemento */
+    align-self: center;
+    text-align: center;
+    /* Alineación del texto */
+}
+
+/* Estilos para los elementos caja del menú */
+.caja {
+    display: inline-block;
+    /* Muestra en línea */
+    justify-content: center;
+    /* Centrado horizontal */
+    margin-left: 100px;
+    /* Margen izquierdo */
+    margin-right: 100px;
+    /* Margen derecho */
+}
+
+/* Estilos para los botones del menú de navegación */
+.boton-nav {
+    display: inline-block;
+    /* Muestra en línea */
+    width: 50px;
+    /* Ancho del botón */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Tipo de fuente */
+    font-weight: 700px;
+    /* Grosor de la fuente */
+    border-radius: 10px;
+    /* Radio de borde */
+    margin-left: 10px;
+    /* Margen izquierdo */
+    margin-right: 50%;
+    /* Margen derecho */
+    padding-left: 100px;
+    /* Espaciado interno izquierdo */
+    padding-right: 115px;
+    /* Espaciado interno derecho */
+    padding-top: 25px;
+    /* Espaciado interno superior */
+    padding-bottom: 25px;
+    /* Espaciado interno inferior */
+    text-decoration: none;
+    /* Sin decoración de texto */
+    color: rgb(0, 0, 0);
+    /* Color del texto */
+    background-color: #007bff;
+    /* Color de fondo del botón */
+    /* Centrado vertical y horizontal */
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
+/* Estilos para los botones de navegación al pasar el ratón */
+.boton-nav:hover {
+    background: transparent;
+    /* Fondo transparente */
+    border: 2px solid #007bff;
+    /* Borde con color */
+    color: rgb(255, 255, 255);
+    /* Color del texto */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    display: flex;
+    /* Muestra como flexbox */
+    flex-direction: column;
+    /* Dirección de los elementos */
+    min-height: 100vh;
+    /* Altura mínima de la ventana */
+    margin: 0px;
+    /* Margen */
+}
+
+/* Estilos para el contenido principal */
+main {
+    background-color: beige;
+    /* Color de fondo */
+    flex: 1;
+    /* Flexibilidad del elemento */
+}
+
+/* Estilos para el contenedor principal */
+.contenedor {
+    /* Configuración del contenedor */
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+    background-color: #b6a6a6;
+    /* Color de fondo */
+    border: 1px solid #ccc;
+    /* Borde */
+    border-radius: 5px;
+    /* Radio del borde */
+    padding-left: 20px;
+    /* Espaciado interno izquierdo */
+    display: flex;
+    /* Muestra como flexbox */
+    flex-direction: column;
+    /* Dirección de los elementos */
+}
+
+/* Estilos para el contenido dentro del contenedor */
+.contenido {
+    display: flex;
+    /* Muestra como flexbox */
+    flex-direction: row;
+    /* Dirección de los elementos */
+}
+
+/* Estilos para la sección de imagen */
+.imagen {
+    padding-right: 20px;
+    /* Espaciado derecho */
+}
+
+/* Estilos para las imágenes dentro de la sección de imagen */
+.imagen img {
+    width: 600px;
+    /* Ancho de la imagen */
+    height: auto;
+    /* Altura automática */
+}
+
+/* Estilos para el texto */
+.texto {
+    flex: 1;
+    /* Flexibilidad del elemento */
+}
+
+/* Estilos para el título h2 dentro del texto */
+.texto h2 {
+    font-style: oblique;
+    /* Estilo de fuente oblicua */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Tipo de fuente */
+    font-weight: 500;
+    /* Grosor de la fuente */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(167, 121, 53, 0.829);
+    /* Color de fondo con transparencia */
+}
+
+/* Estilos para el título h2 */
+h2 {
+    justify-content: start;
+    /* Justificación al inicio */
+    margin-top: 0px;
+    /* Margen superior */
+    margin-bottom: 20px;
+    /* Margen inferior */
+    margin-left: 20px;
+    /* Margen izquierdo */
+}
+
+/* Estilos para los párrafos dentro del contenedor */
+.contenedor p {
+    margin-right: 225px;
+    /* Margen derecho (ajustar según necesidad) */
+    padding: 0 20px;
+    /* Espaciado interno */
+    margin-left: 0px;
+    /* Margen izquierdo */
+}
+
+/* Estilos para el título h3 */
+h3 {
+    margin-left: 20px;
+    /* Margen izquierdo */
+}
